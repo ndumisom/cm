@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <title>Our Lift Page</title>
+      <link href="firstCSS.css" media="all  "rel="stylesheet" type="text/css" />
+<link href="css/mobilescreen200by360.css" media="all  "rel="stylesheet" type="text/css" />
+      <link href="css/mobilescreen.css" media="all  "rel="stylesheet" type="text/css" />
+      <link href="css/popup.css" media="all  "rel="stylesheet" type="text/css" />
+      <link href="css/index.css" media="all  "rel="stylesheet" type="text/css" />
+      <script src="jquery.min.js"></script>
+        <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <link href="bootstrap.min.css" media="all  "rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">      
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+    .container {
+      margin-top: 40px;
+    }
+    .btn-primary {
+      width: 100%;
+    }
+  </style>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/2.14.1/moment.min.js"></script> 
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<!--    <link rel="stylesheet" href="/resources/demos/style.css"> -->
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script type='text/javascript'>
+    $( document ).ready(function() {
+      $('#datetimepicker1').datetimepicker();
+    });
+
+    function myFunction() {
+      var x = document.getElementById("navMenu");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+        x.classList.remove("nav-menu");
+      }
+    }
+
+  </script>
+   </head>
+   <body>
+      <div id="body">
+         <div id="header">
+           <div class="top-nav"><div class="logo">Coca Mzansi</div></div>
+            <div class="nav">
+
+              <div class="site-information">
+              <ul id="navMenu" class="nav-menu">
+               <a href="index.html" class="menu_news menu">Home</a>
+               <a href="about.html" class="menu_news menu" id="about">About</a>
+               <a href="service.html" class="menu_news menu" id="Service">Service</a>
+
+               </ul>
+               </div>
+
+
+              <div class="user-information">
+              <ul id="navMenu" class="nav-menu">
+               <a class="menu_news menu login">Login</a>
+               <a href="" class="menu_news menu" id="logout">Logout</a>
+               <a class="menu_news menu" id="signupUser">Sign Up</a>
+               <a href="Login.html" class="menu_news menu login" id="userLoggedIn">UserLoggedIn</a>
+               </ul>
+               </div>
+               <span class="icon-span"><a href="javascript:void(0);" class="icon" onclick="myFunction()"></a></span>
+            </div>
+         </div>
+         <div id="content">
+            <div id="home" class="bg-light">
+               <div class="div1" id="div1ScrollorMobile">
+  
+               </div>
+               <div class="div2" id ="div2ScrollorMobile">
+
+               </div>
+               
+              <div class="signup-as-provider-or-requester">
+
+             </div>
+
+               <div class="dialog-for-user-signup">
+              </div>
+              <div class="dialog-user-login">
+            </div>
+
+               <div class="search-info">
+                  <div class="home-page-information"> 
+                    <div class="home-page-information-content">
+                    <div class="home-page-title">Who are we ?</div>
+                    <div class="home-page-content">
+                    <div class="text-alignment">We are the new kid on the block founded in year 2019</div>
+                    <div class="text-alignment">The reason we exist is to help people who need cleaning service</div>
+                    <div class="text-alignment">and those who need to provide cleaning service to have a platform to meet.</div>
+                    <div class="text-alignment">Sometimes you don't have time to clean your place and you need the helping hand</div>
+                    <div class="text-alignment">and we provide you with that helping hand.</div>
+                   </div>
+                   </div>
+
+                    <div class="image"><div class="cleaner-image-background"></div></div>
+
+                  </div> 
+
+                  <div class="home-page-information"> 
+                   <div class="home-page-information-content">
+                   <div class="home-page-title">What we do ?</div>
+                   <div class="text-alignment"><strong>We provide quality and secured cleaning service</strong></div>
+                   <div class="home-page-content">
+                   <div class="text-alignment">When you bring a stranger into your place to clean for you anything is possible.</div>
+                    <div class="text-alignment">This where <strong>Coca Mzansi</strong> comes in seeking to prevent those posibilities of losing your goods</div> 
+
+                    <div class="text-alignment">You sign up into our platform we do the background check.</div>
+                    <div class="text-alignment">We don't let you operate into our platform before background check is done on both parties.</div>    
+
+
+                   </div>
+                   </div>
+                   <div class="image"><div class="secured-cleaning-service"></div></div>
+                  </div> 
+                  <!-- <p>No Agents Available in your area</p> -->
+               </div>
+            </div>
+         </div>
+        
+           <div id="footer">
+           <div class="">“We are what we repeatedly do. Excellence, therefore, is not an act, but a habit” - Aristotle.</div>
+            <div class="nav">
+
+              <div class="site-information">
+              <ul id="navMenu" class="nav-menu">
+               <a href="https://www.facebook.com/Horizontal-web-1364239560327119/?ref=br_rs" target='_blank' class="menu_news menu">Facebook</a>
+               <a href="https://twitter.com/ndumisombete" class="menu_news menu" target='_blank' id="about">Twitter</a>
+               <a href="https://www.youtube.com/watch?v=FHZCjj09CTo" target='_blank' class="menu_news menu" id="Service">Youtube</a>
+
+               </ul>
+               </div>
+
+
+              <div class="user-information">
+              <ul id="navMenu" class="nav-menu">
+               </ul>
+               </div>
+               <span class="icon-span"><a href="javascript:void(0);" class="icon" onclick="myFunction()"></a></span>
+            </div>
+         </div>
+
+      </div>
+   </body>
+</html>
+<script src="firstScript.js"></script>
+<script src="js/index.js"></script>
+<script src="js/logout.js"></script>
+<script src="js/userlogin.js"></script>
+<script src="js/userregistration.js"></script>
+<script src="js/provider.js"></script>
+<script src="js/requester.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>

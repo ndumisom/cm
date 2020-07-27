@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <title>Coca Mzansi</title>
+      <link href="firstCSS.css" media="all  "rel="stylesheet" type="text/css" />
+<link href="css/mobilescreen200by360.css" media="all  "rel="stylesheet" type="text/css" />
+      <link href="css/mobilescreen.css" media="all  "rel="stylesheet" type="text/css" />
+      <script src="jquery.min.js"></script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <link href="bootstrap.min.css" media="all  "rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">    	
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		.container {
+			margin-top: 40px;
+		}
+		.btn-primary {
+			width: 100%;
+		}
+	</style>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/2.14.1/moment.min.js"></script> 
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+	<script type='text/javascript'>
+		$( document ).ready(function() {
+			// $('#datetimepicker1').datetimepicker();
+		});
+
+		function myFunction() {
+		  var x = document.getElementById("navMenu");
+		  if (x.style.display === "block") {
+		    x.style.display = "none";
+		  } else {
+		    x.style.display = "block";
+		    x.classList.remove("nav-menu");
+		  }
+		}
+
+	</script>
+
+	    <script type="text/javascript">
+        $(document).ready(function () {
+        //DatePicker Example
+			$('#add-date').datetimepicker();
+		});
+    </script>
+   </head>
+   <body>
+      <div id="body">
+         <div id="header">
+           <div class="logo">Coca Mzansi</div>
+            <div class="nav">
+              <ul id="navMenu" class="nav-menu">
+               <a href="index.html" class="menu_home menu">Home</a>
+               </ul>
+               <span class="icon-span"><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+             
+            </a></span>
+            </div>
+         </div>
+         <div id="content">
+            <div id="news" class="bg-light news">
+               <div id="add">
+                  <div id="form">
+
+                   <div class="form-field">
+                  	<input type="text" name="from" placeholder="Closest Agents" class="from" id="from" readonly="true">
+                   </div>
+
+                   <div class="form-field">
+                   	<input type="text" name="firstname" id="firstName" placeholder="First Name" class="sign-up-agent">
+                   </div>
+
+                   <div class="form-field">
+                  	<input type="text" name="lastname" id="lastName" placeholder="Last Name" 
+                  	class="sign-up-agent">
+                   </div>
+
+                   <div class="form-field">
+                   	<input type="text" name="phone" id="phone" placeholder="Phone" 
+                   	class="sign-up-agent">
+                   </div>
+
+                   <div class="form-field">
+                    	<input type="text" name="emailaddress" id="emailaddress" placeholder="Email Address" class="sign-up-agent">
+                   </div>
+
+                   <div class="form-field">
+                  	<input type="postal" name="streetNumber" id="streetNumber" placeholder="Street Number" class="sign-up-agent">
+                   </div>
+
+                   <div class="form-field">
+                   	<input type="text" name="streetName" id="streetName" placeholder="Street Name" class="sign-up-agent">
+                   </div>
+
+                   <div class="form-field">
+                    	<input type="text" name="suburb" id="suburb" placeholder="Suburb" 
+                    	class="sign-up-agent">
+                   </div>
+
+                    <div class="form-field">
+                    	<input type="text" name="city" id="city" placeholder="city" 
+                    	class="sign-up-agent">
+                   </div>
+
+                  <div class="form-field">
+                  	<input type="text" name="postalCode" id="postalCode"placeholder="Postal Code" class="sign-up-agent">
+                  </div>
+
+                  <div class="form-field">
+                  	<input type="button" name="add-submit" value="Edit Profile" 
+                  	class="add-submit" id="addSubmit">
+                  </div>
+
+                  <div class="div1">
+                  </div>
+                  <div class="div2">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+   	<!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.min.css"/>
+	<script src="js/jquery.datetimepicker.js"></script>
+	<script src="js/showuserafterregistration.js"></script>
+</html>
+
+
+<script src="firstScript.js"></script>
+
+<script type="text/javascript">
+      	var url = "https://cocamzans.com:8443/cocamzansi/";
+         var urlToqury = url.substring(0, url.indexOf("cocamzansi"));
+
+         var oneCallToAPI = []
+
+    $.ajax({url: urlToqury+"ourliftpage/cities", success: function(result){
+    	for (var i = 0; i <result.length; i++) {
+      oneCallToAPI.push(result[i]);
+     }
+    }});
+
+    $(".add-from").click(function(){
+  	$.ajax({url: urlToqury+"ourliftpage/cities", success: function(result){
+      $( ".add-class" ).remove();
+      for (var i = 0; i <result.length; i++) {
+        $(".div1").append("<div class='add-class' id='"+result[i].cityId+"'>"+result[i].cityName+"</div>")
+		  console.log(result[i].cityId)
+      }
+      }});
+
+  });
+
+	$(".add-to").click(function(){
+		$.ajax({url: urlToqury+"ourliftpage/cities", success: function(result){
+			$( ".add-class" ).remove();
+			for (var i = 0; i <result.length; i++) {
+				$(".div2").append("<div class='add-class' id='"+result[i].cityId+"'>"+result[i].cityName+"</div>")
+				console.log(result[i].cityId)
+			}
+		}});
+	});
+
+
+	$(document).ready(function(){
+
+	$("div.div1").on("click",".add-class",function(){
+		$(this).css("background-color","red");
+		$(".add-from").val($(this).html())
+		$(".add-from").attr('id', $(this).attr('id'));
+	});
+
+	$("div.div2").on("click",".add-class",function(){
+		$(this).css("background-color","green");
+		$(".add-to").val($(this).html())
+		$(".add-to").attr('id', $(this).attr('id'));
+	});
+
+	$("div#body").on("click",".add-class",function(){
+		$("div.add-class").remove();
+	});
+
+$("div#content").on('mouseenter', '.add-class', function() {
+    $(this).addClass("blue");
+});
+$("div#content").on('mouseleave', '.add-class', function() {
+    $(this).removeClass("blue");
+});
+
+	$("div.div1").mouseleave(function(){
+		$("div.add-class").remove();
+	});
+
+	$("div.div2").mouseleave(function(){
+		$("div.add-class").remove();
+	});
+
+	$("div#body").click(function(){
+		$("div.add-class").remove();
+	});
+
+	$( ".add-class" ).hover(
+  function() {
+    $( this ).addClass( "hover" );
+  }, function() {
+    $( this ).removeClass( "hover" );
+  }
+);
+
+});
+		// $( document ).ready(function() {
+		// 	$('#datetimepicker1').datetimepicker();
+		// });
+
+</script>
+
+<script type="text/javascript">
+	
+$(function() {
+
+  	if($(window).width() <= 640){
+           
+         var url = "https://cocamzans.com:8443/cocamzansi/";
+         var urlToqury = url.substring(0, url.indexOf("cocamzansi"));
+
+         var oneCallToAPI = []
+
+      $('.menu_home').html("<i class='fa fa-home'></i>");
+      $('.menu_news').html("<i class='fa fa-plus'></i>");
+      $('.icon').html("<i class='fa fa-bars'></i>");
+
+      $('#from').attr('readonly', true); 
+      $('#to').attr('readonly', true);
+      $(".add-from").attr('readonly', true)
+      $(".add-to").attr('readonly', true)
+
+
+      $(".input-group-addon").click(function () {
+      	$('#add-date').attr('readonly', true);
+      });      
+    $.ajax({url: urlToqury+"ourliftpage/newPosts", success: function(result){
+    	for (var i = 0; i <result.length; i++) {
+      oneCallToAPI.push(result[i]);
+     }
+    }});
+
+
+  $(".from").click(function(){
+  	$.ajax({url: urlToqury+"ourliftpage/newPosts", success: function(result){
+      $( ".test-class" ).remove();
+      for (var i = 0; i <oneCallToAPI.length; i++) {
+        $(".div1").append("<div class='test-class' id='"+oneCallToAPI[i].cityFrom.cityId+"'>"+oneCallToAPI[i].cityFrom.cityName+"</div>")
+		  console.log(oneCallToAPI[i].cityId)
+
+
+      }
+      $("#div1ScrollorMobile").addClass('div1ScrollorMobile');
+
+
+      }});
+     
+  });
+
+$(".div1").click(function(){
+$("#div1ScrollorMobile").removeClass('div1ScrollorMobile');
+
+});
+
+
+	$(".to").click(function(){
+		$.ajax({url: "https://cocamzans.com:8443/v1/usertypes", success: function(result){
+			$( ".test-class" ).remove();
+			for (var i = 0; i <result.length; i++) {
+				$(".div2").append("<div class='test-class "+result[i].typeName+"' id='"+result[i].typeId+"'>"+result[i].typeName+"</div>")
+				console.log(result[i].typeId)
+			}
+			$("#div2ScrollorMobile").addClass('div2ScrollorMobile');
+		}});
+	});
+     
+
+     $(".div2").click(function(){
+$("#div2ScrollorMobile").removeClass('div2ScrollorMobile');
+	
+});
+
+    $(".submit").click(function(){
+		 var url = "https://cocamzans.com:8443/cocamzansi/";
+         var urlToqury = url.substring(0, url.indexOf("cocamzansi"));
+		if($(".from").val()=='' && $(".to").val()==''){
+			$(".from").focus()
+			$(".from").css("border-color","red")
+			$(".to").css("border-color","red")
+			return false;
+		}
+		$.ajax({
+			type: "POST",
+			url: urlToqury+"ourliftpage/newPosts/searchCity",
+			// The key needs to match your method's input parameter (case-sensitive).
+			data: JSON.stringify({
+						"cityFrom":[{"cityId":$("#"+$(".from").attr("id")).attr('id')}],
+						"cityTo":[{"cityId":$("#"+$(".to").attr("id")).attr('id')}]
+					}
+			),dataType: 'json',
+			contentType: "application/json",
+			success: function(data){
+				console.log(data)
+				var listOfCities = [];
+				for(var i = 0 ; i < data.length;i++)
+				{
+					var departureDateTime = new Date(data[i].departureTime)
+					var month = departureDateTime.getMonth();
+		            monthName = ["January", "February","March", "April", "May", "June", "July","August", "September", "October", "November","December"];
+                    month = monthName[departureDateTime.getMonth()]
+					var day = departureDateTime.getDay();
+					if (departureDateTime.getDate() < 10){
+						day = '0' + departureDateTime.getDate();
+					} else {
+						day = departureDateTime.getDate();
+					}
+
+					listOfCities.push("<div class='" +"list-request  "+data[i].departureTime.replace(":","_").replace(":","_").replace(":","_").replace("+","_").replace("-","_").replace("-","_")+data[i].user.name.toString().replace(" ","").replace(":","").replace("+","").replace("-","")+"'>"+"<br/>" +"<b>"+data[i].cityFrom.cityName+"</b>"+" to&nbsp;"+"<b>"+data[i].cityTo.cityName+"</b>"+",&nbsp;"+day+"&nbsp;"+month+"&nbsp;"+departureDateTime.getUTCFullYear()+"&nbsp;"+departureDateTime.toLocaleTimeString()+"</div>")
+
+				}
+
+				$(".search-info").html(listOfCities)
+			},
+			failure: function(errMsg) {
+				alert(errMsg);
+			}
+		});
+	});
+
+    } else {
+
+      	var url = "https://cocamzans.com:8443/cocamzansi/";
+         var urlToqury = url.substring(0, url.indexOf("cocamzansi"));
+
+         var oneCallToAPI = []
+
+    $.ajax({url: urlToqury+"ourliftpage/cities", success: function(result){
+    	for (var i = 0; i <result.length; i++) {
+      oneCallToAPI.push(result[i]);
+     }
+    }});
+
+
+
+
+	$(".to").click(function(){
+		$.ajax({url: "https://cocamzans.com:8443/v1/usertypes", success: function(result){
+			$( ".test-class" ).remove();
+			for (var i = 0; i <result.length; i++) {
+				$(".div2").append("<div class='test-class' id='"+result[i].typeId+"'>"+result[i].typeName+"</div>")
+				alert(result[i].typeId)
+				console.log(result[i].typeId)
+			}
+		}});
+	});
+     
+
+    $(".submit").click(function(){
+
+    	alert("Small Submit")
+		 var url = "https://cocamzans.com:8443/cocamzansi/";
+         var urlToqury = url.substring(0, url.indexOf("cocamzansi"));
+		if($(".from").val()=='' && $(".to").val()==''){
+			$(".from").focus()
+			$(".from").css("border-color","red")
+			$(".to").css("border-color","red")
+			return false;
+		}
+		$.ajax({
+			type: "POST",
+			url: urlToqury+"ourliftpage/newPosts/searchCity",
+			// The key needs to match your method's input parameter (case-sensitive).
+			data: JSON.stringify({
+						"cityFrom":[{"cityId":$("#"+$(".from").attr("id")).attr('id')}],
+						"cityTo":[{"cityId":$("#"+$(".to").attr("id")).attr('id')}]
+					}
+			),dataType: 'json',
+			contentType: "application/json",
+			success: function(data){
+				console.log(data)
+				var listOfCities = [];
+				for(var i = 0 ; i < data.length;i++)
+				{
+					var departureDateTime = new Date(data[i].departureTime)
+					var month = departureDateTime.getMonth();
+		            monthName = ["January", "February","March", "April", "May", "June", "July","August", "September", "October", "November","December"];
+                    month = monthName[departureDateTime.getMonth()]
+					var day = departureDateTime.getDay();
+					if (departureDateTime.getDate() < 10){
+						day = '0' + departureDateTime.getDate();
+					} else {
+						day = departureDateTime.getDate();
+					}
+
+					listOfCities.push("<div class='" +"list-request  "+data[i].departureTime.replace(":","_").replace(":","_").replace(":","_").replace("+","_").replace("-","_").replace("-","_")+data[i].user.name.toString().replace(" ","").replace(":","").replace("+","").replace("-","")+"'>"+"<br/>" +"<b>"+data[i].cityFrom.cityName+"</b>"+" to&nbsp;"+"<b>"+data[i].cityTo.cityName+"</b>"+",&nbsp;"+day+"&nbsp;"+month+"&nbsp;"+departureDateTime.getUTCFullYear()+"&nbsp;"+departureDateTime.toLocaleTimeString()+"</div>")
+
+				}
+
+				$(".search-info").html(listOfCities)
+			},
+			failure: function(errMsg) {
+				alert(errMsg);
+			}
+		});
+	});
+    }
+  });
+
+
+           function GFG_Run() { 
+                  
+                $('#from').attr('readonly', true); 
+                $('#to').attr('readonly', true);
+                document.getElementById("GFG_down").innerHTML  
+                        = "Read-Only attribute enabled"; 
+            } 
+
+</script>

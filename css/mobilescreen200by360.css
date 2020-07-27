@@ -1,0 +1,252 @@
+@media (min-width: 200px) and (max-width: 360px) {
+
+  .requestStatus {
+    position: relative;
+    left: 28px;
+    float: left;
+    padding-left: 10px;
+}
+
+#chatId,#requestStatus {
+background-color: #000;
+    color: #fff;
+    border-color: #000;
+    border-radius: 3px;
+    height: 5px !important;
+    width: 85px;
+    font-size: 10px;
+    min-height: 25px;
+}
+
+
+    .money,.fun,.money,.tax,.home,.news{
+display: block;
+/*visibility: hidden;
+position: absolute;*/
+
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 6px;
+  text-decoration: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+a:hover {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 6px;
+  text-decoration: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.nav {
+    position: relative;
+    top: -2px;
+}
+
+.nav select {
+  display: none;
+}
+
+body,
+html{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.div1ScrollorMobile{
+overflow-y: auto;
+height: 500px;
+}
+
+.div2ScrollorMobile{
+overflow-y: auto;
+height: 500px;
+}
+
+   #body span.icon-span {
+    position: absolute;
+    left: 3px;
+    top: -3px;
+}
+
+/*.nav-menu{
+    visibility: hidden;
+}*/
+
+.icon-span a{
+    color: #0060B6;
+    text-decoration: none;
+}
+
+i.fa {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+   .icon-span a:focus, .icon-span a:hover {
+    color: #23527c;
+    text-decoration: underline;
+    }
+
+    .test-class,.add-class{
+    padding-bottom: 3%;
+    padding-top: 3%;
+    /*border-bottom:1px solid #000;*/
+    border-top:1px solid #000;
+    cursor: pointer;
+    }
+
+  .list-request {
+    border-bottom: solid 1px;
+    /* width: 30%; */
+    text-align: left;
+}  
+
+.important {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.blue {
+  background-color: #000000;
+  color: #fff;
+}
+
+#body{
+
+/*background-image: url("toyota-could-have-as-many-as-30-cars-in-its-us-lineup-by-next-year.jpg");*/
+background-color: #ffffff;
+
+background-repeat: no-repeat;
+
+height: 100%;
+
+position: relative; 
+
+padding: 1%;
+
+}
+
+.div1{
+    position: absolute;
+    top: 80px;
+    left: 9%;
+    background-color: aliceblue;
+    width: 84%;
+    z-index: 2;
+}
+
+.div2 {
+    position: absolute;
+    top: 140px;
+    left: 9%;
+    background-color: aliceblue;
+    width: 84%;
+    z-index: 2;
+}
+
+#footer{
+
+background-color: #000000;
+
+color: #ffffff;
+
+height: 5%;
+
+position: relative; 
+
+padding: 20px;
+
+text-align: center;
+
+top: 20%;
+
+}
+
+#header{
+
+	background-color: #000000;
+
+	color: #ffffff;
+
+	height: 6%;
+
+	position: relative;
+
+	padding: 0px;
+
+	text-align: center;
+
+}
+
+#content{
+
+background-color: #ffffff;
+
+height: 126%;
+
+position: relative; 
+
+padding: 20px;
+
+text-align: center;
+
+}
+
+.form-field{
+	position: relative;
+	padding: 10px;
+}
+
+.submit,.add-submit{
+
+width: 100%;
+height: 40px;
+background-color: #000000;
+border: #000000;
+border-radius: 2px;
+color: #ffffff;
+cursor: pointer;
+}
+
+.to,.from,.add-from,.add-to,.date,.sign-up-agent{
+width: 100%;
+height: 36px;
+border-radius: 2px;
+}
+
+.search-info {
+/*    border: solid 1px black;*/
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    position: relative;
+    padding: 20px;
+    top: 1px;
+    overflow-y: auto;
+    max-height: 370px;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    /* line-height: 1.42857143; */
+    color: #333;
+    background-color: #fff;
+    height: 640px;
+}
+
+}

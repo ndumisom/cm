@@ -1,0 +1,554 @@
+@media (min-width: 200px) and (max-width: 490px) {
+
+.requestStatus {
+    position: relative;
+    left: 28px;
+    float: left;
+    padding-left: 10px;
+}  
+#chatId,#requestStatus {
+background-color: #000;
+    color: #fff;
+    border-color: #000;
+    border-radius: 3px;
+    height: 5px !important;
+    width: 85px;
+    font-size: 10px;
+    min-height: 25px;
+}
+
+.confirm-request {
+    position: absolute;
+    left: 75%!important;
+    background-color: green;
+    border: green;
+    color: #ffffff;
+    border-radius: 3px;
+    min-height: 22px;
+    width: 52px;
+    font-size: 10px;
+    min-height: 25px;
+}
+
+.on-route-request {
+    position: absolute;
+    left: 75%!important;
+    background-color: green;
+    border: green;
+    color: #ffffff;
+    border-radius: 3px;
+    min-height: 10px !important;
+    width: 77px;
+    font-size: 10px;
+}
+
+.arrived-request {
+    position: absolute;
+    left: 75%!important;
+    background-color: green;
+    border: green;
+    color: #ffffff;
+    border-radius: 3px;
+    min-height: 10px !important;
+    width: 77px;
+    font-size: 10px;
+}
+
+.started-request{
+    position: absolute;
+    left: 75%!important;
+    background-color: green;
+    border: green;
+    color: #ffffff;
+    border-radius: 3px;
+    min-height: 10px !important;
+    width: 77px;
+    font-size: 10px;  
+}
+
+.complete-request{
+    position: absolute;
+    left: 75%!important;
+    background-color: green;
+    border: green;
+    color: #ffffff;
+    border-radius: 3px;
+    min-height: 10px !important;
+    width: 77px;
+    font-size: 10px;  
+}
+
+ #datetimepicker1 {
+    width: 20%;
+    left: 40%;
+}   
+
+#userLoggedIn{
+    
+}
+
+.from,.to{
+    width: 20%;
+        height: 36px;
+    border-radius: 2px;
+}
+
+.add-from, .add-to, .sign-up-agent {
+    width: 70%;
+    height: 36px;
+    border-radius: 2px;
+    position: relative;
+    left: 15%;
+}
+
+.important {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.blue {
+  background-color: #000000;
+  color: #fff;
+}
+
+.nav-item{
+display: inline-block;
+}
+
+.money,.fun,.money,.tax,.home,.news{
+display: block;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0px 6px;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    left: -12%;
+    cursor: pointer;
+}
+
+a:hover {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 6px;
+  text-decoration: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.nav {
+    position: relative;
+    top: -2px;
+    width: 106%!important;
+}
+
+.nav select {
+  display: none;
+}
+
+body,
+html{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#body{
+
+/*background-image: url("toyota-could-have-as-many-as-30-cars-in-its-us-lineup-by-next-year.jpg");*/
+background-color: #ffffff;
+
+background-repeat: no-repeat;
+
+height: 1500px;
+
+position: relative; 
+
+padding: 1%;
+
+}
+
+.div1{
+    position: absolute;
+    top: 80px;
+    left: 40%;
+    background-color: aliceblue;
+    width: 20%;
+    z-index: 2;
+}
+
+.div2 {
+    position: absolute;
+    top: 140px;
+    left: 40%;
+    background-color: aliceblue;
+    width: 20%;
+    z-index: 2;
+}
+
+#footer{
+background-color:blue;;
+
+color: #ffffff;
+
+height: 69px;
+
+position: relative; 
+
+padding: 20px;
+
+text-align: center;
+top: -12%;
+}
+
+#header {
+    background-color: #000000;
+    color: #ffffff;
+    height: 5%;
+    position: relative;
+    padding: 0px;
+    /* text-align: center; */
+    width: 103%;
+    /* left: -16px; */
+}
+
+#content{
+
+background-color: #ffffff;
+
+height: 50%;
+
+position: relative; 
+
+padding: 20px;
+
+text-align: center;
+position: relative;
+    left: -46px;
+
+}
+
+.form-field{
+    position: relative;
+    padding: 4px;
+}
+
+.submit,.add-submit{
+
+width: 20%;
+height: 40px;
+background-color: #000000;
+border: #000000;
+border-radius: 2px;
+color: #ffffff;
+cursor: pointer;
+}
+
+.test-class,.add-class{
+    padding-bottom: 3%;
+    padding-top: 3%;
+    /*border-bottom:1px solid #000;*/
+    border-top:1px solid #000;
+    cursor: pointer;
+    }
+.search-info {
+/*    border: solid 1px black;*/
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    position: relative;
+    padding: 20px;
+    top: 1px;
+    overflow-y: auto;
+    max-height: 500px;
+    width: 106%;
+    height: 1000px;
+    left: 10%;
+
+}
+
+.search-info::-webkit-scrollbar {
+width: 10px;
+}
+
+.list-request {
+    border-bottom: solid 1px;
+    /*width: 30%;*/
+    text-align: left;
+
+}
+
+.logo {
+    position: relative;
+    left: -32%!important;
+    font-size: 107%;
+    top: 12%;
+    font-weight: bold;
+}
+
+.user-information {
+    position: relative;
+    left: 10%!important;
+}
+
+}
+
+@media (min-width: 500px) and (max-width: 769px) {
+
+  .requestStatus {
+    position: relative;
+    left: 28px;
+    float: left;
+    padding-left: 10px;
+} 
+#requestStatus {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+    border-radius: 3px;
+}
+
+#chatId{
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+    border-radius: 3px;
+}
+
+.confirm-request {
+    position: absolute;
+    left: 80%!important;
+    background-color: green;
+    border: green;
+    color: #ffffff;
+    border-radius: 3px;
+    height: 15px !important;
+    width: 52px;
+    font-size: 10px;
+    min-height: 25px;
+}
+
+ #datetimepicker1 {
+    width: 20%;
+    left: 40%;
+}   
+
+#userLoggedIn{
+    
+}
+
+.from,.to{
+    width: 20%;
+        height: 36px;
+    border-radius: 2px;
+}
+
+.add-from, .add-to,.sign-up-agent {
+    width: 20%;
+    height: 36px;
+    border-radius: 2px;
+}
+
+.important {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.blue {
+  background-color: #000000;
+  color: #fff;
+}
+
+.nav-item{
+display: inline-block;
+}
+
+.money,.fun,.money,.tax,.home,.news{
+display: block;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 6px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav {
+    position: relative;
+    top: -2px;
+    width: 106%!important;
+}
+
+.nav select {
+  display: none;
+}
+
+body,
+html{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#body{
+
+/*background-image: url("toyota-could-have-as-many-as-30-cars-in-its-us-lineup-by-next-year.jpg");*/
+background-color: #ffffff;
+
+background-repeat: no-repeat;
+
+height: 1500px;
+
+position: relative; 
+
+padding: 1%;
+
+}
+
+.div1{
+    position: absolute;
+    top: 80px;
+    left: 40%;
+    background-color: aliceblue;
+    width: 20%;
+    z-index: 2;
+}
+
+.div2 {
+    position: absolute;
+    top: 140px;
+    left: 40%;
+    background-color: aliceblue;
+    width: 20%;
+    z-index: 2;
+}
+
+#footer{
+
+background-color:blue;
+
+color: #ffffff;
+
+    height: 69px;
+
+position: relative; 
+
+padding: 20px;
+
+text-align: center;
+top: -12%;
+}
+
+#header{
+
+    background-color:blue;
+
+    color: #ffffff;
+
+    height: 5%;
+
+    position: relative;
+
+    padding: 20px;
+
+    text-align: center;
+
+        width: 103%;
+    left: -16px;
+
+}
+
+#content{
+
+background-color: #ffffff;
+
+height: 50%;
+
+position: relative; 
+
+padding: 20px;
+
+text-align: center;
+position: relative;
+    left: -46px;
+
+}
+
+.form-field{
+    position: relative;
+    padding: 4px;
+}
+
+.submit,.add-submit{
+
+width: 20%;
+height: 40px;
+background-color: #000000;
+border: #000000;
+border-radius: 2px;
+color: #ffffff;
+cursor: pointer;
+}
+
+.test-class,.add-class{
+    padding-bottom: 3%;
+    padding-top: 3%;
+    /*border-bottom:1px solid #000;*/
+    border-top:1px solid #000;
+    cursor: pointer;
+    }
+.search-info {
+/*    border: solid 1px black;*/
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    position: relative;
+    padding: 20px;
+    top: 1px;
+    overflow-y: auto;
+    max-height: 500px;
+    width: 106%;
+    height: 1000px;
+
+}
+
+.search-info::-webkit-scrollbar {
+width: 10px;
+}
+
+.list-request {
+    border-bottom: solid 1px;
+    /*width: 30%;*/
+    text-align: left;
+
+}
+
+.logo {
+    position: relative;
+    left: -32%!important;
+    font-size: 107%;
+    top: 12%;
+    font-weight: bold;
+}
+
+.user-information {
+    position: relative;
+    left: 21%!important;
+}
+
+}
+
+

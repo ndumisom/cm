@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <title>Our Lift Page</title>
+      <link href="firstCSS.css" media="all  "rel="stylesheet" type="text/css" />
+      <link href="css/mobilescreen200by360.css" media="all  "rel="stylesheet" type="text/css" />
+      <link href="css/mobilescreen.css" media="all  "rel="stylesheet" type="text/css" />
+      <link href="css/popup.css" media="all  "rel="stylesheet" type="text/css" />
+      <link href="css/tooltip.css" media="all  "rel="stylesheet" type="text/css" />
+      <link href="css/index.css" media="all  "rel="stylesheet" type="text/css" />
+      <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/main.css" />
+      <script src="jquery.min.js"></script>
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <link href="bootstrap.min.css" media="all  "rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css">
+	    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		.container {
+			margin-top: 40px;
+		}
+		.btn-primary {
+			width: 100%;
+		}
+	</style>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/2.14.1/moment.min.js"></script> 
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+	<script type='text/javascript'>
+		$( document ).ready(function() {
+			$('#datetimepicker1').datetimepicker();
+		});
+
+		function myFunction() {
+		  var x = document.getElementById("navMenu");
+		  if (x.style.display === "block") {
+		    x.style.display = "none";
+		  } else {
+		    x.style.display = "block";
+		    x.classList.remove("nav-menu");
+		  }
+		}
+
+	</script>
+  <script type="text/javascript">
+    
+    $(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+
+  </script>
+   </head>
+   <body>
+      <div id="body">
+         <div id="header">
+           <div class="top-nav"><div class="logo">Coca Mzansi</div></div>
+            <div class="nav">
+
+              <div class="site-information">
+              <ul id="navMenu" class="nav-menu">
+               <a href="index.html" class="menu_news menu">Home</a>
+               <a href="about.html" class="menu_news menu" id="about">About</a>
+               <a href="service.html" class="menu_news menu" id="Service">Service</a>
+
+               </ul>
+               </div>
+
+
+              <div class="user-information">
+              <ul id="navMenu" class="nav-menu">
+               <a class="menu_news menu login">Login</a>
+               <a href="" class="menu_news menu" id="logout">Logout</a>
+               <a class="menu_news menu" id="signupUser">Sign Up</a>
+               <a href="profile.html" class="menu_news menu login" id="userLoggedIn">UserLoggedIn</a>
+               </ul>
+               </div>
+               <span class="icon-span"><a href="javascript:void(0);" class="icon" onclick="myFunction()"></a></span>
+            </div>
+         </div>
+         <div id="content">
+            <div id="home" class="bg-light">
+              <div class="signup-as-provider-or-requester">
+               </div>
+
+              <div class="dialog-for-user-signup">
+              </div>
+              <div class="dialog-user-login">
+            </div>
+            <div class="dialog-user-request">
+            </div>
+            <div class="dialog-user-chatroom">
+              <div id="dialogUserChatRoom" title="Send request"></div>
+            </div>
+
+            <div id="keepAddress">
+            </div>
+
+            <div class="requestStatus">
+              <button id="requestStatus">Request Status</button>
+            </div>
+
+            <div class="requestStatus">
+              <button id="chatId">Chat Room</button>
+            </div>
+            
+
+            <div class="search-info">
+                <div class="main">
+
+                  <div class="top-section-of-the-page">
+                     <div class="tabs">
+                       <div class="tab-list">
+                           <a tabindex="0" role="tab" id="0" aria-selected="false" data-tracking-name="homepage_product-header_components.blocks.product-masthead-wrapper_cta1" class="tab">
+                            <div class="">
+                              <div class="">
+                              <div class="">
+                                <img src="https://www.uber-assets.com/image/upload/v1558389718/assets/8e/33c8c0-f7e9-467c-924b-c70232943a47/original/Earn-filled.svg" role="presentation" aria-hidden="true" class="s0 s2 bk t8">
+                              </div>
+                              <span class="">Provide</span>
+                            </div>
+                          </div>
+                           </a>
+                          <a tabindex="0" role="tab" id="1" aria-selected="false" data-tracking-name="homepage_product-header_components.blocks.product-masthead-wrapper_cta2" class="tab">
+                            <div class="">
+                              <div class="">
+                              <div class="">
+                              <img src="https://www.uber-assets.com/image/upload/v1542252540/assets/6d/87af17-3970-4d01-8936-1b0ba102ea6e/original/car-front-outlined.svg" role="presentation" aria-hidden="true" class="s0 s2 bk t8">
+                            </div>
+                            <span class="tab">Request</span>
+                            </div>
+                          </div>
+                         </a>
+                      </div>
+                   </div>
+
+
+                   <div class="text-will-go-here">
+                    <div data-baseweb="block" class="">
+                          <div data-baseweb="block" class="">
+                                  <h2 class="highlight"> Get into cleaning service and get paid</h2>
+                                  <div data-baseweb="block" class="uc">
+                                    <div class="">
+                                      <p class="cmln__paragraph">
+                                        Clean on the platform with the highest number of active cleaning requests.
+                                      </p>
+                                     </div>
+                                  </div>
+                                  <div class="uf ug uh">
+                                    <div class="ui bw uj uk ul p8 h2">
+                                          <div class="um">
+                                              <a data-baseweb="button" aria-label=" Sign up to drive" text="Sign up to drive" type="a" data-tracking-name="" class="signup-home-button">Sign up to earn</a>
+                                          </div>
+
+                                          <div class="um">
+                                              <a data-tracking-name="" href="https://www.uber.com/za/en/drive/" target="_self" aria-label="" class="nl b5 nm nn ag am cj no np nq nr ns nt nu">
+                                                <div class="">
+                                                <!-- <div class="">Learn more about driving and delivering</div> -->
+                                                </div>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                         </div>
+                     </div>
+                     
+                   </div>
+
+                     <div class="back-ground-images">
+                      <div style=""><img src="https://cocamzansi.com/images/A_janitor_cleaning_up_the_sidewalk.jpg" alt="" role="presentation" aria-hidden="true" class="home-backgrounf-image"></div>
+
+                      <div style="">
+                        <img src="https://cocamzansi.com/images/custodian-workers-compensation.jpg" alt="" role="presentation" aria-hidden="true" class="home-backgrounf-image">
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  
+
+                </div>
+
+               </div>
+               <div id='somediv'></div>
+            </div>
+         </div>
+        
+           <div id="footer">
+           <div class="">“We are what we repeatedly do. Excellence, therefore, is not an act, but a habit” - Aristotle.</div>
+            <div class="nav">
+
+              <div class="site-information">
+              <ul id="navMenu" class="nav-menu">
+               <a href="https://www.facebook.com/Horizontal-web-1364239560327119/?ref=br_rs" target='_blank' class="menu_news menu">Facebook</a>
+               <a href="https://twitter.com/ndumisombete" class="menu_news menu" target='_blank' id="about">Twitter</a>
+               <a href="https://www.youtube.com/watch?v=FHZCjj09CTo" target='_blank' class="menu_news menu" id="Service">Youtube</a>
+
+               </ul>
+               </div>
+
+
+              <div class="user-information">
+              <ul id="navMenu" class="nav-menu">
+               </ul>
+               </div>
+               <span class="icon-span"><a href="javascript:void(0);" class="icon" onclick="myFunction()"></a></span>
+                              <span id="userLoggedInId"></span>
+
+            </div>
+         </div>
+
+
+      </div>
+   </body>
+</html>
+<script src="firstScript.js"></script>
+<script src="js/index.js"></script>
+<script src="js/logout.js"></script>
+<script src="js/userlogin.js"></script>
+<script src="js/userregistration.js"></script>
+<script src="js/provider.js"></script>
+<script src="js/requester.js"></script>
+<script src="js/request.js"></script>
+<script src="js/response.js"></script>
+<script src="js/alert.js"></script>
+<script src="js/requestStatus.js"></script>
+<script src="js/requestStatus.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyAna2X9OT7ZRK6qy0KABZbHdaXR4wnW77I"></script>
+<script src="js/autocompleteaddress.js"></script>
+<script src="js/easyNotify.js"></script>
+<script src="js/pushnotification.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/connectsocket.js"></script>
+<script src="js/chatroom.js"></script>
+<script src="js/requestbuttonstatus.js"></script>
+<script src="js/tooltip.js"></script>
